@@ -1,30 +1,32 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-  <title>Modelo Cajas Flex</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Modelo Cajas Flex</title>
 </head>
+
 <body>
-  <h1 class="m-3 bg3 text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <div class="bg-cyan-950 mx-auto max-w-3xl container">
-    <header class="h-10 bg-[#a33b15]">
-        ENCABEZADO LOL
-    </header>
-    <section class="flex bg-orange-400">
-        <nav class="h-[101px] w-1/4 bg-green-900">
+    <h1 class="m-3 bg3 text-3xl font-bold underline">
+        Hello world!
+    </h1>
+    <div class="grid grid-cols-4 bg-cyan-950 mx-auto max-w-3xl container">
+        <header class="col-span-4 h-10 bg-[#a33b15]">
+            ENCABEZADO LOL
+        </header>
+        <nav class="h-[101px] bg-green-900">
             Opciones
         </nav>
-        <article class="w-3/4 bg-purple-800">
+        <article class=" col-span-3 bg-purple-800">
             contenido de la sección.
-        </article>        
-    </section>
-    <footer class="bg-yellow-600">
-        pie de página
-    </footer>
-</div>
+        </article>
+        <footer class="col-span-4
+         bg-yellow-600">
+            pie de página
+        </footer>
+    </div>
 </body>
+
 </html>
